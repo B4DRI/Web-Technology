@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calculate.js"></script>
+</head>
+<body>
+    <h1>Sum X and Y Calculator</h1>
+
+    <label for="x">Enter integer x:</label>
+    <input type="text" id="x" /><br><br>
+
+    <label for="y">Enter integer y:</label>
+    <input type="text" id="y" /><br><br>
+
+    <button onclick="calculateSum()">Calculate</button><br><br>
+
+    <label for="result">The sum of x and y is:</label>
+    <input type="text" id="result" readonly />
+    
+    
+    <h1>BMI Calculator</h1>
+
+    <label for="weight">Enter your weight in kilogram (kg):</label>
+    <input type="text" id="weight" /><br><br>
+
+    <label for="height">Enter your height in meter (m):</label>
+    <input type="text" id="height" /><br><br>
+    
+    <button onclick="calculateBMI()">Calculate BMI</button><br><br>
+
+    <label for="weightOutput">Your weight is:</label>
+    <input type="text" id="weightOutput" readonly /><br><br>
+
+    <label for="bmiOutput">You are:</label>
+    <input type="text" id="bmiOutput" readonly /><br><br>
+
+    <p><strong>Formula:</strong> BMI = weight / (height * height)</p>
+    <p><strong>Weight Types:</strong></p>
+
+    <ul>
+        <li>Underweight: Less than 18.5</li>
+        <li>Optimum range: 18.5 to 24.9</li>
+        <li>Overweight: 25 to 29.9</li>
+    </ul>
+   
+</body>
+</html>
