@@ -1,0 +1,52 @@
+INSERT INTO module values('M1','Brotherhood and Unity in Islam', 'KICT', to_date('12/25','MM/DD'),to_date('12/26','MM/DD'), 'RM 2000', 'Saidina Hamzah Stadium', 'Sis. Amira');
+INSERT INTO module values('M2',' Concept of Tauhid,  Ibadah and Khalifah in Islam', 'AIKOL', to_date('12/25','MM/DD'),to_date('12/26','MM/DD'), 'RM 2500', 'IIUM Cultural Centre (ICC) ', 'Bro. Hafiz');
+INSERT INTO module values('M3',' Leadership in Islam', 'KAED', to_date('12/25','MM/DD'),to_date('12/26','MM/DD'), 'RM 2500', 'Main Auditorium, IIUM', 'Bro. Izzudin');
+INSERT INTO module values('M4',' Dakwah : A Fundamental Islamic Obligation', 'KOE', to_date('12/25','MM/DD'),to_date('12/26','MM/DD'), 'RM 3000', 'Sultan Haji Ahmad Shah Mosque', 'Sis. Humairah');
+INSERT INTO module values('M5',' Concept of Fiqh', 'KENMS', to_date('12/25','MM/DD'),to_date('12/26','MM/DD'), 'RM 3050', 'Male Sports Centre', 'Bro Ikhwan');
+INSERT INTO module values('M6',' Responsibility', 'HS', to_date('12/25'
+,'MM/DD'),to_date('12/26','MM/DD'), 'RM 2050', 'Female Sports Centre', 'Sis Siti');
+INSERT INTO module values('M7',' Critical Thinking', 'KICT', to_date('1
+2/25','MM/DD'),to_date('12/26','MM/DD'), 'RM 1000', 'Cafe Siddiq', 'Bro Azim');
+INSERT INTO module values('M8',' Creative Thinking', 'ENGIN', to_date('
+12/25','MM/DD'),to_date('12/26','MM/DD'), 'RM 500', 'Wadi Budi', 'Bro Aiman');
+INSERT INTO module values('M9',' Fair and Fun', 'BAR', to_date('12/25',
+'MM/DD'),to_date('12/26','MM/DD'), 'RM 1550', 'ADM LT3 Lvl 4', 'Sis Mira');
+INSERT INTO module values('M10',' How to Handle Stress', 'KAED', to_date('12/25','MM/DD'),to_date('12/26','MM/DD'), 'RM 1750', 'Development Division IIUM', 'Sis Amyra');
+
+
+INSERT INTO activity VALUES('A1.1','8.00pm-10.00pm',TO_DATE('12-25','MM-DD'),'Usrah','M1','strengthen ukhwah');
+INSERT INTO activity VALUES('A1.2','8.30am-11am',TO_DATE('12-26','MM-DD'),'Gotong-royong','M2','build teamwork spirit');
+INSERT INTO activity VALUES('A2.1','3.30pm-4.30pm',TO_DATE('12-25','MM-DD'),'Tauhid quiz','M3','test aqidah knowledge');
+INSERT INTO activity VALUES('A2.2','4.00am-6.00am',TO_DATE('12-26','MM-DD'),'Qiamullail','M4','strengthen inner spirit');
+INSERT INTO activity VALUES('A3.1','8.30am-11am',TO_DATE('05-24','MM-DD'),'Leadership in Islam Talk','M5','to gain knowledge');
+INSERT INTO activity VALUES('A3.2','8.30am-5.00pm',TO_DATE('12-26','MM-DD'),'Leadership Explorace','M6','Practice leadership skills while doing challenges');
+INSERT INTO activity VALUES('A4.1','8.00pm-10.00pm',TO_DATE('12-25','MM-DD'),'Daie competition','M7','to produce many preacher');
+INSERT INTO activity VALUES('A4.2','8.30am-11.00am',TO_DATE('12-26','MM-DD'),'Poster competition','M8','to impart creativity in dakwah');
+INSERT INTO activity VALUES('A4.3','11.30pm-1.00am',TO_DATE('12-26','MM-DD'),'Night walk','M9','Increase bravery');
+INSERT INTO activity VALUES('A4.4','11.30pm-1.00am',TO_DATE('12-26','MM-DD'),'Talk night session','M10','More relaxing');
+
+
+INSERT INTO progress VALUES('partially completed','A1.1','RM 100', 'approved');
+INSERT INTO progress VALUES('partially completed','A1.2','RM 150', 'approved');
+INSERT INTO progress VALUES('completed','A2.1', 'RM 75', 'approved');
+INSERT INTO progress VALUES('completed','A2.2','RM55','approved');
+INSERT INTO progress VALUES('completed','A3.1','RM 100','approved');
+INSERT INTO progress VALUES('partially completed','A3.2','RM 65','approved');
+INSERT INTO progress VALUES('completed','A4.1','RM 105','approved');
+INSERT INTO progress VALUES('completed','A4.2','RM 120','approved');
+INSERT INTO progress VALUES('dropped','A4.3',null,'not approved');
+INSERT INTO progress VALUES('dropped','A4.4',null,'not approved');
+
+
+
+INSERT INTO feedback VALUES('1001','M','AIKOL','5','interesting activities');
+INSERT INTO feedback VALUES('1025','M','KICT','5','really excited');
+INSERT INTO feedback VALUES('1003','M','KAED','3','ggwp');
+INSERT INTO feedback VALUES('1004','M','KICT','3','must be improved');
+INSERT INTO feedback VALUES('1005','M','KOE','1','no comment');
+INSERT INTO feedback VALUES('2710','F','KICT','2', null);
+INSERT INTO feedback VALUES('1185','F','KAED','4','good-looking committee');
+INSERT INTO feedback VALUES('1018','F','AIKOL','5','sporting committee');
+INSERT INTO feedback VALUES('1882','F','KOED','1','not interesting');
+INSERT INTO feedback VALUES('1889','F','KENMS','2','not satisfied');
+

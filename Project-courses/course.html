@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+nav{
+font-size: 20px;
+background-color: #301934;
+padding: 0;
+margin: 0;
+list-style-type: none;
+position: fixed;
+top: 0;
+width: 100%;
+
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a:hover{
+    background-color: white;
+    color: #301934;
+}
+.active{
+    background-color: white;
+}
+.course{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+}
+
+.left{
+    flex: 2; 
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.right{
+     flex: 1;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.button{
+    background-color: #5614AD;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #301934;
+  }
+  /* Active effect */
+  .button:active {
+    background-color: #301934;
+  }
+
+  .dept{
+    background-color: #E6E6FA;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .left2{
+    flex: 1;
+}
+  .right2{
+    background-color: #301934;
+    color: white;
+    flex: 2;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0px 20px 20px 0px;
+    
+  }
+  .img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 0px 0px 20px;
+  }
+  footer{
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  background-color: #301934;
+  margin-top: 80px;
+}
+.info{
+  padding: 40px;
+  color: white;
+  text-align: center;  
+  margin-left: 100px;
+ margin-right: 100;
+ font-size: larger;
+}
+.info a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+    </style>
+</head>
+<body>
+
+    <nav>
+        
+        <a href="">HOME</a>
+        <a href="">TUTOR</a>
+        <a href="">STUDENT</a>
+        <a href="course.html">COURSE</a>
+        <a href="">MATERIALS</a>
+    
+    </nav>
+    
+    <br><br><br><br>
+    
+    <div class="course">
+
+        <div class="left">
+            <h2 style="font-size: 40px;">GAIN SKILLS AND KNOWLEDGE WITH US NOW.</h2>
+            
+            <p style="font-size:larger;">Increase your marketability by completing our training and certifications in various fields of information technology together with top students as the tutor. Discover our extensive curriculum on IIUM Academy to boost your skills, the place to go for online education, skill building and certification.</p>
+            
+            <div class="button">
+                <a href="#explore" style="text-decoration: none; color: white;">Explore Now</a>
+                </div>
+       
+        </div>
+        <div class="right">
+            <Img src="course.jpg" alt="image1">
+        </div>
+    </div>
+
+    <br><br> 
+    <br><br>
+
+    <!--department cs&it-->
+    <div class="dept"  id="explore">
+
+        <h2  style="text-align:center; font-size: xx-large;" >Explore your course now!</h2>
+
+        <div class="course" >
+    
+            <div class="left2">
+                <Img src="cs.jpg" alt="image1" class="img">
+            </div>
+
+            <div class="right2">
+                <h2 style="font-size: 50px;" >Computer Science</h2>
+                
+                <p style="font-size:larger;">Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application.</p>
+    
+                <p style="font-size: larger;">In a nutshell, computer science degrees deal with the theoretical foundations of information and computation, taking a scientific and practical approach to computation and its applications. </p>
+
+                <div class="button" >
+                    <a href="cs.html" style="text-decoration: none; color: white;"><strong>Go</strong></a>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="course" >
+    
+            <div class="left2">
+                <Img src="it3.jpg" alt="image1" class="img">
+            </div>
+
+            <div class="right2">
+                <h2  style="font-size: 50px;">Information Technology</h2>
+                
+                <p style="font-size:larger;">The field of information technology, or IT, covers the support, administration, and design of telecommunications and computer systems. Some positions in this field include system analysts, software programmers, computer scientists, computer support specialists, and network and database administrators.</p>
+            
+                <br>
+
+                <div class="button" >
+                    <a href="it.html" style="text-decoration: none; color: white;"><strong>Go</strong></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="info">
+            <p style="font-size: x-large; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><strong>IIUM</strong></p>
+            <p><STrong>ONLINE ACADEMY</STrong></p>
+
+            <img src="iium logo.png" alt="iium logo" width="120px" height="120px">
+        </div>
+
+        <div class="info">
+            <br>
+            <a href="">HOME</a><br>
+            <a href="">TUTOR</a><br>
+            <a href="">STUDENT</a><br>
+            <a href="course.html">COURSE</a><br>
+            <a href="">MATERIALS</a>
+        </div>
+    
+        <div class="info">
+            <h3><strong>FOLLOW US ON:</strong></h3>
+            <br>
+            <a href="facebook"> Facebook </a>
+            <br>
+            <a href="instagram"> Instagram </a>
+            <br>
+            <a href="twitter"> Twitter </a>
+        </div>
+    
+        <div class="info">
+            <h3><strong>CONTACT US:</strong></h3>
+            <br>
+            <p>email:</p>
+            <p>onlineacademy@live.iium.edu.my</p>
+            <br>
+            <p>phone no.:</p>
+            <p>04-5665 8833</p>
+        </div>
+
+
+    </footer>
+
+
+</body>
+</html>

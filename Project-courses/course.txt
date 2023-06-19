@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="proj1.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+   
+    
+    <br><br><br><br>
+    
+    <div class="course">
+
+        <div class="left">
+            <h2 style="font-size: 40px;">GAIN SKILLS AND KNOWLEDGE WITH US NOW.</h2>
+            
+            <p style="font-size:larger;">Increase your marketability by completing our training and certifications in various fields of information technology together with top students as the tutor. Discover our extensive curriculum on IIUM Academy to boost your skills, the place to go for online education, skill building and certification.</p>
+            
+            <div class="button">
+                <a href="#explore" style="text-decoration: none; color: white;">Explore Now</a>
+                </div>
+       
+        </div>
+        <div class="right">
+            <Img src="course.jpg" alt="image1">
+        </div>
+    </div>
+
+    <br><br> 
+    <br><br>
+
+    <!--department cs&it-->
+    <div class="dept">
+
+        <h2 id="explore" style="text-align: left;" >Explore your course now!</h2>
+
+        <div class="course" >
+    
+            <div class="left2">
+                <Img src="cs.jpg" alt="image1" class="img">
+            </div>
+
+            <div class="right2">
+                <h2 style="font-size: 50px;" >Computer Science</h2>
+                
+                <p style="font-size:larger;">Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application.</p>
+    
+                <p style="font-size: larger;">In a nutshell, computer science degrees deal with the theoretical foundations of information and computation, taking a scientific and practical approach to computation and its applications. </p>
+
+                <div class="button" >
+                    <a href=""></a> <strong>Go</strong></a>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="course" >
+    
+            <div class="left2">
+                <Img src="it3.jpg" alt="image1" class="img">
+            </div>
+
+            <div class="right2">
+                <h2  style="font-size: 50px;">Information Technology</h2>
+                
+                <p style="font-size:larger;">The field of information technology, or IT, covers the support, administration, and design of telecommunications and computer systems. Some positions in this field include system analysts, software programmers, computer scientists, computer support specialists, and network and database administrators.</p>
+            
+                <br>
+
+                <div class="button" >
+                    <a href=""></a> <strong>Go</strong></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

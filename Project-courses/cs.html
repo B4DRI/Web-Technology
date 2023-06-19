@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+nav{
+font-size: 20px;
+background-color: #301934;
+padding: 0;
+margin: 0;
+list-style-type: none;
+position: fixed;
+top: 0;
+width: 100%;
+
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a:hover{
+    background-color: white;
+    color: #301934;
+}
+.active{
+    background-color: white;
+}
+.left{
+    
+    flex: 2;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.right{
+   
+    flex: 1;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.course{
+  
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+   
+}
+.block{
+    background-color: #301934;
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    color: #fff;
+}
+  .index{
+    margin: 20px;
+    padding: 20px;
+    color: #fff;
+    background-color: #301934;
+    border-radius: 5px;
+    box-shadow: 10px 10px black;
+  }
+  .dept{
+    background-color: #E6E6FA;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+  }
+  ::-webkit-scrollbar {
+    width:0px;
+}
+
+
+  .left2{
+    flex: 1;
+}
+  .right2{
+    background-color: #301934;
+    color: white;
+    flex: 2;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0px 20px 20px 0px;
+    padding-bottom: 20px;
+  }
+  .img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 0px 0px 20px;
+  }
+
+  .button{
+    border: 3px solid black;
+    background-color: #5614AD;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #301934;
+    text-shadow: 2px 2px 4px white;
+  }
+  /* Active effect */
+  .button:active {
+    background-color: #301934;
+  }
+  .instructor{
+  margin: 30px;
+  padding-left: 20px;
+  float: left;
+  width: 250px;
+  }
+  .img1 {
+    width: 80%;
+    height: 57%;
+    border-radius: 50%;
+  }  
+  .instructor-detail{
+    padding: 15px;
+    text-align: center;
+  }
+  footer{
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  background-color: #301934;
+  margin-top: 80px;
+}
+.info{
+  padding: 40px;
+  color: white;
+  text-align: center;  
+  margin-left: 100px;
+ margin-right: 100;
+ font-size: larger;
+}
+.info a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    
+</head>
+<body class="cs">
+
+    <nav>
+        
+        <a href="">HOME</a>
+        <a href="">TUTOR</a>
+        <a href="">STUDENT</a>
+        <a href="course.html">COURSE</a>
+        <a href="">MATERIALS</a>
+    
+    </nav>
+
+    <BR></BR><BR></BR>
+    <h1 style="text-align: center;">COMPUTER SCIENCE</h1>
+
+    <div class="course">
+
+        <div class="left">
+            <h2><strong>About this course.</strong> </h2>
+            <p style="font-size: medium;">Computer Science is the study of computers and computational systems. 
+
+                Principal areas of study within Computer Science include artificial intelligence, computer systems and networks, security, database systems, human computer interaction, vision and graphics, numerical analysis, programming languages, software engineering, bioinformatics and theory of computing.
+                
+                Although knowing how to program is essential to the study of computer science, it is only one element of the field. </p>
+
+                <p style="font-size: medium;">Computer scientists design and analyze algorithms to solve programs and study the performance of computer hardware and software. The problems that computer scientists encounter range from the abstract-- determining what problems can be solved with computers and the complexity of the algorithms that solve them – to the tangible – designing applications that perform well on handheld devices, that are easy to use, and that uphold security measures.
+                
+                  </p>
+
+                    <br>
+            <h3 style="text-align: center;">Skills can get through this course.</h3>
+
+            <p class="block">Software Development</p>
+            <p class="block">Data Analysts</p>
+            <p class="block">Technical Writting</p>
+            <p class="block">Mathematical</p>
+            <p class="block">Problem Solving</p>
+        </div>
+
+        <div  class="right">
+            <div class="index">
+            <h4>Sample foundational coursework can include:</h4>
+            <ol>
+                <li>Programming skills</li>
+                <li>Calculus</li>
+                <li>Discrete mathematics </li>
+                <li> Computer networking</li>
+                <li>Probability and statistics</li>
+                <li>Data management and analysis</li>
+                <li>Basic algorithms</li>
+                <li>Artificial intelligence and machine learning</li>
+                <li>Natural language processing</li>
+            </ol>
+            </div>
+        </div>
+    </div>
+        <br><br>
+
+        <!--subject to be selected-->
+        <div class="course">
+
+            <h2 style="padding-left: 40px;">Getting start by selecting a learning subject.</h2> <br>
+             <div class="dept"  id="">
+
+                <div class="course" >
+            
+                    <div class="left2">
+                        <Img src="programming skill.jpg" alt="image1" class="img">
+                    </div>
+        
+                    <div class="right2">
+                        <h2 style="font-size: 40px;" >1.Programmings Skills</h2>
+                        
+                        <p style="font-size:medium;">In this course you will learn programming languages like Python, Java, or JavaScript, along with algorithms and data structures for efficient problem-solving. Problem-solving skills, integration with APIs, and knowledge of security principles are also important. Familiarity with the software development life cycle and stay updated and exploring specialized areas like AI, machine learning, and game development.</p>
+        
+                        <div class="button" style="text-align: right;">
+                            <a href=""></a> <strong>Enroll Now</strong></a>
+                        </div>
+                    </div>
+                </div>
+
+        
+                    <div class="course" >
+                
+                        <div class="left2">
+                            <Img src="calculus.jpg" alt="image1" class="img">
+                        </div>
+            
+                        <div class="right2">
+                            <h2 style="font-size: 40px;" >2.Calculus</h2>
+                            
+                            <p style="font-size:medium;">In calculus for computer science, you will learn concepts such as limits, derivatives, and integrals, which are fundamental to analyzing algorithms, optimizing code, and understanding computational complexity. It provides the mathematical foundation for areas like machine learning, data analysis, computer graphics, and numerical methods.</p>
+            
+                            <div class="button" style="text-align: right;">
+                                <a href=""></a> <strong>Enroll Now</strong></a>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="course" >
+            
+                            <div class="left2">
+                                <Img src="discrete math.png" alt="image1" class="img">
+                            </div>
+                
+                            <div class="right2">
+                                <h2 style="font-size: 40px;" >3.Discrete Mathematics</h2>
+                                
+                                <p style="font-size:medium;">Discrete mathematics covers topics such as logic, sets, functions, relations, combinatorics, graph theory, and formal proof techniques. It forms the basis for understanding algorithms, data structures, cryptography, and discrete probability. It is a fundamental branch of mathematics that helps in problem-solving, logical reasoning, and analyzing discrete structures found in computer science and other fields.</p>
+                
+                                <div class="button" style="text-align: right;">
+                                    <a href=""></a> <strong>Enroll Now</strong></a>
+                                </div>
+                            </div>
+                        </div>
+
+                 <div class="hide" id="course" style="display: none;">
+
+                        <div class="course" >
+            
+                            <div class="left2">
+                                <Img src="computer system.jpg" alt="image1" class="img">
+                            </div>
+                
+                            <div class="right2">
+                                <h2 style="font-size: 40px;" >4.Computer Networking</h2>
+                                
+                                <p style="font-size:medium;">In computer networking course it combine lectures and hands-on practice to provide skills in computer network system configuration. Courses may include discussions, lectures and projects that deal with basic networking principles and current developments in the field. Topics studied in a computer networking class delve into skills areas such as network control, sequencing and simulation.</p>
+                
+                                <div class="button" style="text-align: right;">
+                                    <a href=""></a> <strong>Enroll Now</strong></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="course" >
+            
+                            <div class="left2">
+                                <Img src="probability.jpg" alt="image1" class="img">
+                            </div>
+                
+                            <div class="right2">
+                                <h2 style="font-size: 40px;" >5.Probability and statistics</h2>
+                                
+                                <p style="font-size:medium;">In this course you will learn the differences between these statistics and how to calculate them. You'll also learn about types of events that express probability, including simple, compound, complementary, independent and dependent. You'll learn what the outcomes of these events are and how you can calculate said probability</p>
+                
+                                <div class="button" style="text-align: right;">
+                                    <a href=""></a> <strong>Enroll Now</strong></a>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+
+                         <strong><span id="More" style="text-align: center; text-decoration: none;">More</span></strong>
+                </div>
+            </div>
+
+        <h2 style="text-align: center;">Instructor</h2>
+
+        <div class="course">
+         <div class="instructor">
+            <a target="_blank" href="tutor1.jpg">
+            <img src="tutor1.jpg" alt="" class="img1"></a>
+            <div class="instructor-detail">
+            <p>Name: Sarah</p>
+            <p>Matric no.: 2210987</p>
+            <p>Subject: Probability</p></div>
+        </div>
+        <div class="instructor">
+            <a target="_blank" href="tutor2.jpg">
+            <img src="tutor2.jpg" alt="" class="img1"></a>
+            <div class="instructor-detail">
+            <p>Name: Adam</p>
+            <p>Matric no.: 1810092</p>
+            <p>Subject: Discrete Mathematic</p></div>
+        </div>
+        <div class="instructor">
+            <a target="_blank" href="tutor3.jpg">
+            <img src="tutor3.jpg" alt="" class="img1"></a>
+            <div class="instructor-detail">
+            <p>Name: Johan</p>
+            <p>Matric no.: 1911392</p>
+            <p>Subject: Calculus</p></div>
+        </div>
+        <div class="instructor">
+            <a target="_blank" href="tutor6.jpg">
+            <img src="tutor5.jpg" alt="" class="img1"></a>
+            <div class="instructor-detail">
+            <p>Name: Sarah</p>
+            <p>Matric no.: 2114392</p>
+            <p>Subject: Programming skills</p></div>
+        </div>
+        
+       
+
+    </div>
+       
+<script type="text/javascript">
+    $(document).ready(function(){
+      $("#More").click(function(){
+        $(".hide").slideToggle(1000);
+        if ($(".hide").is(":visible")) {
+          $(this).text("Less");
+        } else {
+          $(this).text("More");
+        }
+      });
+    });
+    </script>
+
+
+<footer>
+    <div class="info">
+        <p style="font-size: x-large; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><strong>IIUM</strong></p>
+        <p><STrong>ONLINE ACADEMY</STrong></p>
+
+        <img src="iium logo.png" alt="iium logo" width="120px" height="120px">
+    </div>
+
+    <div class="info">
+        <br>
+        <a href="">HOME</a><br>
+        <a href="">TUTOR</a><br>
+        <a href="">STUDENT</a><br>
+        <a href="course.html">COURSE</a><br>
+        <a href="">MATERIALS</a>
+    </div>
+
+    <div class="info">
+        <h3><strong>FOLLOW US ON:</strong></h3>
+        <br>
+        <a href="facebook"> Facebook </a>
+        <br>
+        <a href="instagram"> Instagram </a>
+        <br>
+        <a href="twitter"> Twitter </a>
+    </div>
+
+    <div class="info">
+        <h3><strong>CONTACT US:</strong></h3>
+        <br>
+        <p>email:</p>
+        <p>onlineacademy@live.iium.edu.my</p>
+        <br>
+        <p>phone no.:</p>
+        <p>04-5665 8833</p>
+    </div>
+
+
+</footer>
+
+
+</body>
+</html>
